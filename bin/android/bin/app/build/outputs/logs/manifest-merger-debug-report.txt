@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [:deps:extension-api] C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\deps\extension-api\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:94-121
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:70-93
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:2:122-152
+uses-feature#0x00020000
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:2-75
+	android:glEsVersion
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:16-48
+	android:required
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:49-72
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:2-87
+	android:required
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:60-84
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:16-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:7:2-65
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:7:19-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:8:2-64
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:8:19-61
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:9:2-63
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:9:19-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:10:2-76
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:10:19-73
+application
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:2-31:16
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:2-31:16
+	android:extractNativeLibs
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:42-68
+	android:hardwareAccelerated
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:128-162
+	android:icon
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:209-238
+	android:allowBackup
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:15-41
+	android:theme
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:69-127
+	android:allowNativeHeapPointerTagging
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:163-208
+activity#com.ander.windowsXP.MainActivity
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:3-29:14
+	android:label
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:209-235
+	android:launchMode
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:236-267
+	android:exported
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:185-208
+	android:configChanges
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:41-184
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:tv.ouya.intent.category.GAME
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:19:4-25:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:21:5-57
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:21:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:22:15-62
+category#tv.ouya.intent.category.GAME
+ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:23:5-61
+	android:name
+		ADDED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:23:15-58
+uses-sdk
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+MERGED from [:deps:extension-api] C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\deps\extension-api\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:deps:extension-api] C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\deps\extension-api\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml

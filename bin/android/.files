@@ -1,0 +1,11 @@
+bin/android/bin/deps/extension-api/build.gradle
+bin/android/bin/deps/extension-api/src/main/AndroidManifest.xml
+bin/android/bin/deps/extension-api/src/main/java/org/haxe/extension/Extension.java
+bin/android/bin/deps/extension-api/src/main/java/org/haxe/HXCPP.java
+bin/android/bin/deps/extension-api/src/main/java/org/haxe/lime/HaxeObject.java
+bin/android/bin/deps/extension-api/src/main/java/org/haxe/lime/Lime.java
+bin/android/bin/deps/extension-api/src/main/java/org/haxe/lime/Value.java
+bin/android/bin/assets/main.cpp
+bin/android/bin/assets/script.js
+bin/android/bin/assets/style.css
+bin/android/bin/manifest/default.json

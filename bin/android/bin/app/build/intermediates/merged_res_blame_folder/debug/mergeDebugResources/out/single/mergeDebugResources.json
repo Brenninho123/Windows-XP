@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-xxhdpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-xhdpi_ouya_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-xhdpi/ouya_icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-mdpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-xhdpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-xxxhdpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-hdpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "com.ander.windowsXP.app-debug-4:/drawable-ldpi_icon.png.flat",
+        "source": "com.ander.windowsXP.app-main-6:/drawable-ldpi/icon.png"
+    }
+]

@@ -1,0 +1,3 @@
+com.ander.windowsXP
+drawable icon
+drawable ouya_icon

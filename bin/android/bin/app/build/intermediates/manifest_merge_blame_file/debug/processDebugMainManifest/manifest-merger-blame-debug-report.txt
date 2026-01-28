@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ander.windowsXP"
+4    android:installLocation="auto"
+5    android:versionCode="4"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="35" />
+11
+12    <uses-feature
+12-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:2-75
+13        android:glEsVersion="0x00020000"
+13-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:16-48
+14        android:required="true" />
+14-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:4:49-72
+15    <uses-feature
+15-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:2-87
+16        android:name="android.hardware.touchscreen"
+16-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:16-59
+17        android:required="false" />
+17-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:5:60-84
+18
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:7:2-65
+19-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:7:19-62
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:8:2-64
+20-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:8:19-61
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:9:2-63
+21-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:9:19-60
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:10:2-76
+22-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:10:19-73
+23
+24    <application
+24-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:2-31:16
+25        android:allowBackup="true"
+25-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:15-41
+26        android:allowNativeHeapPointerTagging="false"
+26-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:163-208
+27        android:debuggable="true"
+28        android:extractNativeLibs="true"
+29        android:hardwareAccelerated="true"
+29-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:128-162
+30        android:icon="@drawable/icon"
+30-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:209-238
+31        android:label="Windows XP"
+31-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:42-68
+32        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+32-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:13:69-127
+33        <activity
+33-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:3-29:14
+34            android:name="com.ander.windowsXP.MainActivity"
+34-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:13-40
+35            android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+35-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:41-184
+36            android:exported="true"
+36-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:185-208
+37            android:label="Windows XP"
+37-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:209-235
+38            android:launchMode="singleTask" >
+38-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:17:236-267
+39            <intent-filter>
+39-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:19:4-25:20
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:21:5-57
+40-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:21:13-54
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:22:5-65
+42-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:22:15-62
+43                <category android:name="tv.ouya.intent.category.GAME" />
+43-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:23:5-61
+43-->C:\Users\Breno\Downloads\Windows-XP\bin\android\bin\app\src\main\AndroidManifest.xml:23:15-58
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
