@@ -3,18 +3,21 @@
     <meta title="Windows XP Simulation" package="com.ander.windowsxp"/>
     <meta version="1.0.0"/>
     <meta author="Ander"/>
-    <meta description="Simulação do Windows XP usando HTML5"/>
+    <meta description="Simulação do Windows XP usando HTML5 e Android"/>
 
-    <!-- Define o arquivo Haxe principal -->
-    <app main="Main" file="index.html" path="bin/html5"/>
+    <!-- HTML5 target -->
+    <app main="Main" path="bin/html5"/>
 
-    <!-- Haxe libraries necessárias -->
+    <!-- Android target -->
+    <app main="Main" path="bin/android" type="android"/>
+
+    <!-- Haxe libraries -->
     <haxelib name="lime"/>
     <haxelib name="openfl"/>
 
-    <!-- Assets: todos os arquivos HTML/CSS/JS -->
+    <!-- Assets: todos os arquivos HTML/CSS/JS/fundos -->
     <assets path="assets" include="**"/>
 
-    <!-- Configuração da janela HTML5 -->
+    <!-- Configuração da janela -->
     <window width="1024" height="768" fps="60"/>
 </project>
