@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>Windows-XP-Simulation</name>
+    <description>Simulation of Windows XP interface using HTML, launched via C++.</description>
+    <version>1.0</version>
+
+    <files>
+        <file>main.cpp</file>
+        <file>index.html</file>
+        <file>style.css</file>
+        <file>script.js</file>
+    </files>
+
+    <settings>
+        <language>C++</language>
+        <standard>C++17</standard>
+        <build>
+            <command>g++ main.cpp -o WindowsXPSim</command>
+        </build>
+        <run>
+            <command>./WindowsXPSim</command>
+        </run>
+    </settings>
+
+    <platforms>
+        <platform name="Windows"/>
+        <platform name="Linux"/>
+        <platform name="MacOS"/>
+    </platforms>
+</project>
