@@ -1,0 +1,28 @@
+-main ApplicationMain 
+--macro lime._internal.macros.DefineMacro.run()
+--macro haxe.macro.Compiler.addMetadata("@:autoBuild(lime._internal.macros.AssetsMacro.embedBytes())", "haxe.io.Bytes")
+-cp C:/HaxeToolkit/haxe/lib/lime/8,3,0/src
+-D lime=8.3.0
+-cp Source
+-D lime-threads
+-D tools=8.3.0
+-D ANDROID_SDK=C:\Users\Breno\AppData\Local\Android\Sdk
+-D ANDROID_SETUP=true
+-D lime-canvas
+-D ANDROID_NDK_ROOT=C:\android-ndk-r21e
+-D howlerjs
+-D no-compilation
+-D lime-webgl
+-D lime-dom
+-D lime-howlerjs
+-D lime-html5
+-D JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot
+-D html5
+-D web
+-js bin/html5/bin/Game.js
+-cp bin/html5/haxe
+-D html5
+-D html
+-D final
+-D js-flatten
+-dce full
