@@ -10,20 +10,16 @@ class Main extends Sprite {
         super();
         trace("Windows XP Simulation loaded!");
 
-        // Detecta a plataforma
         #if html5
         loadHTML5();
         #elseif android
         loadAndroid();
-        #else
-        trace("Plataforma não suportada diretamente.");
         #end
     }
 
     #if html5
     private function loadHTML5():Void {
-        // Cria iframe para HTML5
-        var iframe = js.Browser.document.createElement("iframe");
+        var iframe = cast js.Browser.document.createElement("iframe"), js.html.HTMLIFrameElement;
         iframe.src = "assets/index.html";
         iframe.width = "1024";
         iframe.height = "768";
@@ -35,13 +31,11 @@ class Main extends Sprite {
 
     #if android
     private function loadAndroid():Void {
-        // Carrega a interface diretamente (ou pode abrir WebView nativo depois)
         var container = new Sprite();
-        container.graphics.beginFill(0x008080); // fundo teal XP
+        container.graphics.beginFill(0x008080); // fundo XP
         container.graphics.drawRect(0, 0, 1024, 768);
         container.graphics.endFill();
 
-        // Mensagem simples na tela
         var message = new openfl.text.TextField();
         message.text = "Windows XP Simulation - Android";
         message.textColor = 0xFFFFFF;
