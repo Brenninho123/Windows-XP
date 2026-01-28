@@ -7,7 +7,7 @@ class Main extends Sprite {
         super();
         trace("Windows XP Simulation loaded!");
 
-        // Cria um iframe para carregar o HTML do assets
+        // Cria um iframe que carrega a simulação HTML
         var iframe = js.Browser.document.createElement("iframe");
         iframe.src = "assets/index.html";
         iframe.width = "1024";
