@@ -4,18 +4,17 @@
     <meta version="1.0.0"/>
     <meta author="Ander"/>
     <meta description="Simulação do Windows XP usando HTML5"/>
-    
-    <!-- Target HTML5 -->
-    <app main="Main" file="index.html" path="bin/html5"/>
-    
-    <!-- Haxe libraries -->
-    <haxelib name="lime" />
-    <haxelib name="openfl" />
-    
-    <!-- Assets -->
-    <assets path="assets" include="**" />
 
-    <!-- HTML5 specific -->
-    <window width="1024" height="768" fps="60" />
-    
+    <!-- Define o arquivo Haxe principal -->
+    <app main="Main" file="index.html" path="bin/html5"/>
+
+    <!-- Haxe libraries necessárias -->
+    <haxelib name="lime"/>
+    <haxelib name="openfl"/>
+
+    <!-- Assets: todos os arquivos HTML/CSS/JS -->
+    <assets path="assets" include="**"/>
+
+    <!-- Configuração da janela HTML5 -->
+    <window width="1024" height="768" fps="60"/>
 </project>
